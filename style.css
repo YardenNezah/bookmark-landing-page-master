@@ -1,0 +1,405 @@
+body {
+    color:#84868d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: rgb(102, 88, 88);
+}
+
+h4 {
+    color: white;
+    font-size: 25px;
+}
+
+.nav, nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 0 120px;
+    color: white;
+}
+
+.right-nav {
+    color: grey;
+}
+
+.hamburger-nav {
+    display: none;
+    float:right;
+    text-align: right;
+}
+
+.topnav #links {
+    display: none;
+    color: black;
+}
+  
+.a-simple-div {
+    margin: 120px 0 0 160px;
+    height: 350px;
+    width: 400px;
+}
+
+.hero-img {
+    float: right;
+    margin: 60px;
+    width: 500px;
+    height: 350px;
+}
+
+.tab1-img {
+    float: left;
+    margin: 0 110px;
+    width: 400px;
+    height: 250px;
+}
+
+.shape {
+    width: 380px;
+    height: 230px;
+    background-color: #5368df;
+    z-index: -1;
+    position: absolute;
+}
+
+.first-shape {
+    border-radius: 100px 0 0 100px;
+    margin: 15% 0 0 68%;
+}
+
+.second-shape {
+    border-radius: 0 100px 100px 0;
+    margin: 5% 68% 0 0;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.blue-button {
+    background-color: #5368df;
+    color: white;
+    box-shadow: 2px #4d64e4;
+}
+
+.light-button {
+    background-color: #f7f7f7;
+    color: #84868d;
+    box-shadow: 2px #e9ecf5;
+}
+
+.red-button {
+    background-color: #fa585c;
+    color: white;
+    box-shadow: 2px #cc5c5b;
+}
+
+.center-div {
+    margin: 80px 30%;
+    width: 450px;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    font-weight: bold;
+    width: 450px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+.show-hr {
+    display: none;
+}
+
+.hr {
+    width: 140px;
+    height: 2px;
+    display: inline-block;
+}
+
+.first {
+    background-color: #fa585c;
+}
+
+.hide {
+    background-color: white;
+    border: none;
+}
+
+.speedy {
+    margin-left: 15px;
+}
+
+.easy {
+    margin-left: 35px;
+}
+
+.one-click-div {
+    margin-left: 600px;
+    margin-top: 110px;
+    height: 350px;
+    width: 350px;
+}
+
+.intelligent-div, .share-bookmarks-div {
+    display: none;
+    height: 200px;
+    width: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    Grid-gap: 30px;
+    width: 600px;
+    margin: 40px 0 120px -80px;
+}
+
+.add-to {
+    border: 1px solid #e8eaee;
+    box-shadow: 2px 2px #dee1eb;
+    border-radius: 5px;
+    width: 180px;
+    padding: 10px;
+}
+
+.firefox {
+    margin:20px 0 -20px 0;
+}
+
+.opera {
+    margin:40px 0 -40px 0;
+}
+
+.dots {
+    width: 188px;
+    margin-right: 20px;
+}
+
+.answer {
+    display: none;
+}
+
+.questions {
+    text-align: left;
+    color: rgb(87, 84, 84);
+}
+
+.stay-up-div {
+    background-color:#667bf1;
+    height: 160px;
+    padding: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.arrow {
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #282c44;
+    bottom:0;
+}
+
+input {
+    border-radius: 3px;
+    border: none;
+    padding: 9px;
+}
+
+.bottom-logo {
+    width: 100px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+.apps-icons {
+    margin-left: 20px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.list-item {
+    margin: 20px;
+    display: inline;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+.curier-font {
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+@media screen and (max-width:1186px) {
+    .stay-up-div, footer {
+        width: 90%;
+    }
+    .shape {
+        width: 300px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width:952px) {
+    .hero-img {
+        width: 92%;
+        height: 60%;
+    }
+    .shape {
+        width: 2\60px;
+        height: 180px;
+    }
+    .first-shape {
+        margin: 40% 50% 0 48%;
+    }
+    .second-shape {
+        margin: 25% 68% 0 0;
+    }
+    .a-simple-div {
+        text-align: center;
+        width: 90%;
+    }
+    h1 {
+        font-size: 40px;
+        color: black;
+        padding-bottom: 10px;
+        width: 300px;
+        padding-right: 50px;
+        margin-right: 100px;
+    }
+    p {
+         font-size: 20px;
+         text-align: center;
+         width: 300px;
+    }
+    .blue-button, .light-button {
+         width: 200px;
+         height: 45px;
+         font-size: 15px;
+         margin-bottom: 50px;
+         margin-right: 250px;
+    }
+    h2 {
+        font-size: 30px;
+        color: black;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-right: 200px;
+    }
+     .hamburger {
+         margin-left: 80%;
+    }
+     .hamburger-nav {
+        display: grid;
+    }
+    .right-nav, .hide-btn {
+        display: none;
+    }
+    .one-click-div {
+        float: right;
+    }
+    .features-container {
+        flex-direction: column;
+        width: 220px;
+    }
+    .features {
+        margin-left: 90px;
+        margin-top: 700px;
+        text-align: left;
+    }
+    .clean {
+        margin-bottom: 150px;
+    }
+    .grid-container {
+        grid-template-columns: 90%;
+        Grid-gap: 20px;
+        width: 500px;
+        margin: 30px 80px 100px -60px;
+        padding-top: 30px;
+    }
+    .add-to {
+        border-radius: 3px;
+        width: 250px;
+        padding: 20px;
+        height: 280px;
+    }
+    .dots {
+        width: 158px;
+    }
+    .install {
+        width: 225px;
+        height: 48px;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .show-hr, .hide {
+        display: grid;
+        width: 240px;
+        border: 0.5px solid grey;
+    }
+    .close-hr {
+        display: none;
+    }
+    .hr {
+        width: 240px;
+    }
+    .first-hr {
+        border-color: red;
+    }
+    .stay-up-div {
+        height: 260px;
+    }
+    .contact {
+        width: 280px;
+        margin: 20px;
+        height: 50px;
+    }
+    input {
+        width: 260px;
+        height: 30px;
+    }
+    footer {
+        height: 250px;
+        width: 100%;
+    }
+    .list-item {
+        display: block;
+        width: 300px;
+        text-align: center;
+    }
+    .bottom-logo {
+        margin-left: 110px;
+    }
+    .questions {
+        line-height: 50px;
+        width: 370px;
+        float: left;
+    }
+    .arrow {
+        margin-top: 20px;
+    }
+}
